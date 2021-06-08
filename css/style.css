@@ -12,6 +12,26 @@
     align-items: center;
 }
 
+.instructions{
+    position: absolute;
+    left: 10px;
+    top: 30%;
+    max-width: 340px;
+    font-family: 'New Tegomin', serif;
+    padding-left: 20px;
+    border: 2px solid black;
+}
+
+.instructions h2{
+    text-align: center;
+}
+
+.instructions li{
+    margin: 10px;
+    font-weight: bold;
+    padding-left: 5px;
+}
+
 #scoreBox{
     position: absolute;
     top: 9px;
@@ -24,7 +44,7 @@
 #highScoreBox{
     position: absolute;
     top: 59px;
-    right: 200px;
+    right: 185px;
     font-size: 25px;
     font-weight: bold;
     font-family: 'New Tegomin', serif;
